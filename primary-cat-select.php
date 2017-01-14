@@ -13,7 +13,7 @@
  * @package           Primary_Cat_Select
  *
  * @wordpress-plugin
- * Plugin Name:       Primary Category Selector
+ * Plugin Name:       Primary Category Select
  * Plugin URI:        https://github.com/oddmotion/
  * Description:       Allows the user to choose a primary category for all post types.  Posts with primary categories selected can be displayed on a page.
  * Version:           1.0.0
@@ -22,7 +22,6 @@
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       primary-cat-select
- * Domain Path:       /languages
  */
 
 // If this file is called directly, abort.
