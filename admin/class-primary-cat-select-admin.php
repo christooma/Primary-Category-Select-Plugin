@@ -139,6 +139,7 @@ class Primary_Cat_Select_Admin {
 		// Open the Query
 		if ( $primary_cat_query -> have_posts() ) {
 			// Generate a simple unordered list
+			echo '<h2>Last 3 Primary Category Posts</h2>';
 			echo '<ul>';
 			while ( $primary_cat_query -> have_posts() ) {
 
@@ -153,7 +154,7 @@ class Primary_Cat_Select_Admin {
 			echo '</ul>';
 		} else {
 
-			echo "Whoops!  No posts match that Primary Category.";
+			echo "Whoops!  There aren't any posts that match that Primary Category.";
 
 		}
 
