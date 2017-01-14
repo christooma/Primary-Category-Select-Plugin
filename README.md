@@ -1,10 +1,16 @@
-# Primary-Categories
-WordPress plugin for setting and displaying primary categories for posts and custom post types*.
+## Primary Category Select Plugin
 
-This plugin creates a meta box on the post edit screen titled "Primary Category" containing a drop down menu populated with all categories associated with that post**. Selecting a primary category and updating the post saves this data into a custom field with a meta key of "primary-category".
+This Wordpress Plugin allows users to select a Primary Category from a list of many selected categories.  The user can then display a list of posts tagged with Primary Categories on any post or page using a simple shortcode.
 
-To display a list of all posts with a particular primary category, use the shortcode [primary-category name="cat_name"] where cat_name is the name of the primary category you wish to display. If a name is not specified, the shortcode will default to all posts with "uncategorized" set as the primary category.
+## Shortcode
 
-*Note: Custom post types must support both categories and custom fields.
+Once you've installed the plugin, simply use the following shortcode to display posts with Primary Categories:
+[primary-category name="cat_name"] where "cat-name" is the name of the primary category you would like to view.
 
-**Note: As new categories are added to a post, the post must be updated before those new categories will be available for selection as a primary category.
+## Motivation
+
+Kicking off my GitHub page with a simple Wordpress plugin
+
+## Installation
+
+Install the Zip archive via the Wordpress Plugin screen inside the WP Dashboard, then you will find a new box on all posts/pages/custom post types that lets you select a Primary Category.  You must select standard post categories and update the page before a primary category will be selectable.
