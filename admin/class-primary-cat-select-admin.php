@@ -132,7 +132,7 @@ class Primary_Cat_Select_Admin {
 			'post_type' => 'any',
 			'meta_key' => 'primary_cat',
 			'meta_value' => $a['name'],
-			'posts_per_page' => 3
+			'posts_per_page' => -1
 			)
 		);
 
